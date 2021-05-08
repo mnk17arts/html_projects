@@ -26,3 +26,18 @@ User Story #7: *I should see an a element with a corresponding id="tribute-link"
 User Story #8: _The img element should responsively resize, relative to the width of its parent element, without exceeding its original size._
 
 User Story #9: _The img element should be centered within its parent element._
+
+> ##### Other works 🎊
+⭐ [`Hand tracking Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/hand-tracking-module/README.md) 
+⭐ [`Face Recognition Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/face-recognition-project/README.md) 
+⭐ [`Virtual Paint using Hand tracking Project`]() <br/>
+⭐ [`Volume Control using Hand tracking`]() 
+⭐ [`Fingers Counter using Hand Tracking`]() 
+⭐ [`QR and Barcode detector and decoder`]() <br/>
+⭐ [`Sample Survey Form Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/survey-form) 
+⭐ [`Personal Portfolio Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/personal-portfolio-page) 
+⭐ [`Product Landing Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/product-landing-page)  
+⭐ [`Technical Documentation Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/technical-documentation-page) 
+ 
+###### suggestions : mailto:mnk17arts@gmail.com
+###### made with web❤️
