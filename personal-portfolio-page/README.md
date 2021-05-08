@@ -37,7 +37,7 @@ User Story #11: The navbar should always be at the top of the viewport.
 ⭐ [`Volume Control using Hand tracking`]() 
 ⭐ [`Fingers Counter using Hand Tracking`]() 
 ⭐ [`QR and Barcode detector and decoder`]() <br/>
-⭐ [`Sample Survey Form Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/survey-from) 
+⭐ [`Sample Survey Form Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/survey-form) 
 ⭐ [`Product Landing Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/product-landing-page) 
 ⭐ [`Tribute Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/tribute-page)  
 ⭐ [`Technical Documentation Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/technical-documentation-page) 
