@@ -39,3 +39,19 @@ User Story #14: Inside the form element, I can select several fields from a seri
 User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
+
+
+> ##### Other works 🎊
+⭐ [`Hand tracking Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/hand-tracking-module/README.md) 
+⭐ [`Face Recognition Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/face-recognition-project/README.md) 
+⭐ [`Virtual Paint using Hand tracking Project`]() <br/>
+⭐ [`Volume Control using Hand tracking`]() 
+⭐ [`Fingers Counter using Hand Tracking`]() 
+⭐ [`QR and Barcode detector and decoder`]() <br/>
+⭐ [`Personal Portfolio Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/personal-portfolio-page) 
+⭐ [`Product Landing Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/product-landing-page) 
+⭐ [`Tribute Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/tribute-page)  
+⭐ [`Technical Documentation Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/technical-documentation-page) 
+ 
+###### suggestions : mailto:mnk17arts@gmail.com
+###### made with web❤️
