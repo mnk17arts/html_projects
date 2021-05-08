@@ -37,3 +37,20 @@ User Story #13: When I click on a navbar element, the page should navigate to th
 User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
 
 User Story #15: My Technical Documentation page should use at least one media query.
+
+
+> ##### Other works 🎊
+⭐ [`Hand tracking Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/hand-tracking-module/README.md) 
+⭐ [`Face Recognition Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/face-recognition-project/README.md) 
+⭐ [`Virtual Paint using Hand tracking Project`]() <br/>
+⭐ [`Volume Control using Hand tracking`]() 
+⭐ [`Fingers Counter using Hand Tracking`]() 
+⭐ [`QR and Barcode detector and decoder`]() <br/>
+⭐ [`Sample Survey Form Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/survey-from) 
+⭐ [`Personal Portfolio Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/personal-portfolio-page) 
+⭐ [`Product Landing Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/product-landing-page) 
+⭐ [`Tribute Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/tribute-page)  
+
+ 
+###### suggestions : mailto:mnk17arts@gmail.com
+###### made with web❤️
