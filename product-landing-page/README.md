@@ -38,3 +38,19 @@ User Story #13: The navbar should always be at the top of the viewport.
 User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once.
+
+
+> ##### Other works 🎊
+⭐ [`Hand tracking Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/hand-tracking-module/README.md) 
+⭐ [`Face Recognition Project`](https://github.com/mnk17arts/myPython/blob/main/opencv/face-recognition-project/README.md) 
+⭐ [`Virtual Paint using Hand tracking Project`]() <br/>
+⭐ [`Volume Control using Hand tracking`]() 
+⭐ [`Fingers Counter using Hand Tracking`]() 
+⭐ [`QR and Barcode detector and decoder`]() <br/>
+⭐ [`Sample Survey Form Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/survey-from) 
+⭐ [`Personal Portfolio Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/personal-portfolio-page) 
+⭐ [`Tribute Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/tribute-page)  
+⭐ [`Technical Documentation Page`](https://github.com/mnk17arts/myHtmlCssJs/tree/main/technical-documentation-page) 
+ 
+###### suggestions : mailto:mnk17arts@gmail.com
+###### made with web❤️
