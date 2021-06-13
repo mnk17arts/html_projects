@@ -1,0 +1,81 @@
+#footer 
+  width: 450px
+  text-align: center
+  display: block
+  margin: 15px auto 30px auto
+  font-size: 0.8em
+  font-family: candara
+  a 
+    font-weight: 800
+    text-decoration: none
+    color: #fff
+    &:hover
+      color: orange
+      text-decoration: underline
+
+#i-main
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center  
+  #i-app
+      align-self: center
+      width: 400px
+      height: 350px
+      padding: 1rem
+      border: 10px outset #555
+      border-radius: 4px
+      background-image: linear-gradient(45deg, #333, #666, #999)
+      background-color: #ccc
+      display: grid
+      grid-template: repeat(5,1fr) / repeat(4, 1fr)
+      grid-gap: 0.8rem
+      cursor: pointer
+      .k
+        background-color: #333
+        display: flex
+        justify-content: center
+        align-items: center
+        font-weight: 1000
+        font-size: 20px 
+        color: #fff
+        font-family: arial, sans-serif  
+      .s
+        font-family: arial
+        grid-column: 2 / span 3
+        justify-content: flex-end
+        padding-right: 5px
+        border: 5px inset #555 
+        border-radius: 2px
+        color: #000
+        letter-spacing: 2px
+        overflow: hidden
+        background-color: #bccd95
+        cursor : default
+      .n, .o, .c, .d, .e
+        border-radius: 5px
+        box-shadow: 0 4px #000
+        &:hover
+          background-color: lighten(#333,15%)
+        &:active
+          background-color: darken(#333,5%)
+          box-shadow: none
+      .o
+        background-color: lighten(#111, 5%)
+      .c
+        background-color: #f00
+        &:hover
+          background-color: lighten(#f00,15%)
+        &:active
+          background-color: darken(#f00,10%)
+          box-shadow: none        
+        
+@media screen and (max-width: 500px)
+  #i-app
+    transform: scale(0.8)
+@media screen and (max-width: 400px)
+  #i-app
+    transform: scale(0.7)
+@media screen and (max-width: 450px)
+  #i-app
+    transform: scale(0.6)    
