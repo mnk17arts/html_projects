@@ -4,11 +4,12 @@ const projectName = "mnk17arts' JS Simple Calculator";
 $(document).ready(
 function(){
  const screen = $('#display');
- 
+ const clear =$('#clear');
  // ALL CLEAR  - AC  
- $('#clear').on('click', () => { screen.html(0); } );
+ clear.on('click', () => { screen.html(0); } );
  // NUMBERS - N 1234567890
- $('.n').on('click', (e) => { 
+ const number = $('.n');
+ number.on('click', (e) => { 
  
  const rgx = /^(0{1,})(\w)$/; //  ex. 00002 => 2
  let newDisplay = screen.html() + $(e.currentTarget).html();
@@ -19,7 +20,8 @@ function(){
  screen.html(newDisplay);     
  })
  // DECIMAL POINT
- $('.d').on('click', (e) => {
+ const decimal = $('.d');
+ decimal.on('click', (e) => {
  const rgx1 = /[.]{2,}$/;  
  const rgx2 = /(\d+[.]\d+)([.])$/; 
    
@@ -34,7 +36,8 @@ function(){
  screen.html(display)  
  }) 
  // OPERATORS +-*/
- $('.o').on('click', (e) => {
+ const operator = $('.o');
+ operator.on('click', (e) => {
  const rgx = /[+-\/*]$/;
  const cDisplay = screen.html();
  const newOperator = $(e.currentTarget).attr('value');
@@ -56,8 +59,9 @@ function(){
    
  });
  // EVALUATE
- $(".e").on('click', () => {
-    screen.html(eval($(".s").html()));
+ const equals = $(".e");
+ equals.on('click', () => {
+    screen.html(eval(screen.html()));
   });   
   
 }
