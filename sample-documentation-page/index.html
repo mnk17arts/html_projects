@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="https://assets.codepen.io/5987189/internal/avatars/users/default.png?fit=crop&format=auto&height=80&version=1617549988&width=80" type="image/png" sizes="16x16">
+  </head>
+  <body>
+        <nav id="navbar">
+          <header >
+              GitHub Guide
+          </header>
+          <ul>
+            <li> <a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li> <a href="#Understanding_the_GitHub_flow" class="nav-link">Understanding the GitHub flow</a></li>
+            <li> <a href="#Hello_World" class="nav-link">Hello World</a></li>
+            <li> <a href="#Step_1._Create_a_Repository" class="nav-link">Step 1. Create a Repository</a></li>
+            <li> <a href="#Step_2._Create_a_Branch" class="nav-link">Step 2. Create a Branch</a></li>
+            <li> <a href="#Step_3._Make_and_commit_changes" class="nav-link">Step 3. Make and commit changes</a></li>
+            <li> <a href="#Step_4._Open_a_Pull_Request" class="nav-link">Step 4. Open a Pull Request</a></li>
+            <li> <a href="#Step_5._Merge_your_Pull_Request" class="nav-link">Step 5. Merge your Pull Request</a> </li>
+          </ul>
+        </nav>
+        <main id="main-doc">
+           <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+             <article>
+             <h3>What is GitHub?</h3>
+             <p>
+        GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+             </p>
+             <p>
+        This tutorial teaches you GitHub essentials like repositories, branches, commits, and Pull Requests. You’ll create your own Hello World repository and learn GitHub’s Pull Request workflow, a popular way to create and review code.
+             </p>
+             <p>
+        No coding necessary
+        To complete this tutorial, you need a GitHub.com account and Internet access. You don’t need to know how to code, use the command line, or install Git (the version control software GitHub is built on).
+             </p>
+             <p>
+               <b>Tip:</b> Open this guide in a separate browser window (or tab) so you can see it while you complete the steps in the tutorial.</p></article>
+          </section>
+           <section class="main-section" id="Understanding_the_GitHub_flow">
+            <header>Understanding the GitHub flow</header>
+            <article>
+              <p>
+               GitHub flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. This guide explains how and why GitHub flow works.
+             </p>
+              <ul>
+                <li><b>Create a branch</b></li>
+                <p>
+        When you're working on a project, you're going to have a bunch of different features or ideas in progress at any given time – some of which are ready to go, and others which are not. Branching exists to help you manage this workflow.
+              </p>
+              <p>
+        When you create a branch in your project, you're creating an environment where you can try out new ideas. Changes you make on a branch don't affect the main branch, so you're free to experiment and commit changes, safe in the knowledge that your branch won't be merged until it's ready to be reviewed by someone you're collaborating with.
+                </p>
+              <b>ProTip</b><p>
+        Branching is a core concept in Git, and the entire GitHub flow is based upon it. There's only one rule: anything in the main branch is always deployable.
+              </p>
+              <p>
+        Because of this, it's extremely important that your new branch is created off of main when working on a feature or a fix. Your branch name should be descriptive (e.g., refactor-authentication, user-content-cache-key, make-retina-avatars), so that others can see what is being worked on</p>
+              <p>
+                <li> <b>Add commits</b></li>
+        Once your branch has been created, it's time to start making changes. Whenever you add, edit, or delete a file, you're making a commit, and adding them to your branch. This process of adding commits keeps track of your progress as you work on a feature branch.
+              </p>
+              <p>
+        Commits also create a transparent history of your work that others can follow to understand what you've done and why. Each commit has an associated commit message, which is a description explaining why a particular change was made. Furthermore, each commit is considered a separate unit of change. This lets you roll back changes if a bug is found, or if you decide to head in a different direction.
+        </p>
+              <p>
+                <b>ProTip</b>
+        Commit messages are important, especially since Git tracks your changes and then displays them as commits once they're pushed to the server. By writing clear commit messages, you can make it easier for other people to follow along and provide feedback.
+              </p>
+                <p><li><b>Open a Pull Request</b></li>
+        Pull Requests initiate discussion about your commits. Because they're tightly integrated with the underlying Git repository, anyone can see exactly what changes would be merged if they accept your request.
+        </p>
+              <p>
+        You can open a Pull Request at any point during the development process: when you have little or no code but want to share some screenshots or general ideas, when you're stuck and need help or advice, or when you're ready for someone to review your work. By using GitHub's @mention system in your Pull Request message, you can ask for feedback from specific people or teams, whether they're down the hall or ten time zones away.
+        </p>
+              <p>
+                <b>ProTip</b>
+        Pull Requests are useful for contributing to open source projects and for managing changes to shared repositories. If you're using a Fork & Pull Model, Pull Requests provide a way to notify project maintainers about the changes you'd like them to consider. If you're using a Shared Repository Model, Pull Requests help start code review and conversation about proposed changes before they're merged into the main branch.
+              </p>
+                <p><li><b>Discuss and review your code</b></li>
+        Once a Pull Request has been opened, the person or team reviewing your changes may have questions or comments. Perhaps the coding style doesn't match project guidelines, the change is missing unit tests, or maybe everything looks great and props are in order. Pull Requests are designed to encourage and capture this type of conversation.
+              </p>
+              <p>
+        You can also continue to push to your branch in light of discussion and feedback about your commits. If someone comments that you forgot to do something or if there is a bug in the code, you can fix it in your branch and push up the change. GitHub will show your new commits and any additional feedback you may receive in the unified Pull Request view.
+        </p>
+              <p>
+                <b>ProTip</b>
+        Pull Request comments are written in Markdown, so you can embed images and emoji, use pre-formatted text blocks, and other lightweight formatting.
+              </p>
+                <p><li><b>Deploy</b></li>
+        With GitHub, you can deploy from a branch for final testing in production before merging to main.
+              </p>
+              <p>
+        Once your pull request has been reviewed and the branch passes your tests, you can deploy your changes to verify them in production. If your branch causes issues, you can roll it back by deploying the existing main branch into production.
+              </p>
+              <p>
+        Different teams may have different deployment strategies. For some, it may be best to deploy to a specially provisioned testing environment. For others, deploying directly to production may be the better choice based on the other elements in their workflow.</p>
+                <p><li><b>Merge</b></li>
+        Now that your changes have been verified in production, it is time to merge your code into the main branch.
+              </p>
+              <p>
+        Once merged, Pull Requests preserve a record of the historical changes to your code. Because they're searchable, they let anyone go back in time to understand why and how a decision was made.
+              </p>
+              <p>
+                <b>ProTip</b>
+        By incorporating certain keywords into the text of your Pull Request, you can associate issues with code. When your Pull Request is merged, the related issues are also closed. For example, entering the phrase Closes #32 would close issue number 32 in the repository. For more information, check out our help article.
+        </p>
+          </ul>
+            </article>
+          </section>
+           <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+             <article>
+            <p>
+              The Hello World project is a time-honored tradition in computer programming. It is a simple exercise that gets you started when learning something new. Let’s get started with GitHub!
+             </p>
+             <p>
+        You’ll learn how to:
+        <ul>
+               <li>Create and use a repository</li>
+              <li> Start and manage a new branch</li>
+               <li>Make changes to a file and push them to GitHub as commits</li>
+               <li>Open and merge a pull request</li>
+             </ul>
+            </p>
+             </article>
+          </section>
+           <section class="main-section" id="Step_1._Create_a_Repository">
+            <header>Step 1. Create a Repository</header>
+             <article>
+            <p>
+              A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a README, or a file with information about your project. GitHub makes it easy to add one at the same time you create your new repository. It also offers other common options such as a license file.
+             </p>
+             <p>
+               Your <code>hello-world</code> repository can be a place where you store ideas, resources, or even share and discuss things with others.
+             </p>
+             <p>
+               <b>To create a new repository</b></p>
+         <ol>    
+        <li>In the upper right corner, next to your avatar or identicon, click  and then select New repository.</li>
+           <li>  Name your repository <code>hello-world</code>.</li>
+           <li>Write a short description.</li>
+           <li>Select Initialize this repository with a README.</li>
+             </ol>
+             <img class="limg" src="https://guides.github.com/activities/hello-world/create-new-repo.png" alt=""/>
+               </p><p>Click Create repository. 
+               </p>
+             </article>
+          </section>
+           <section class="main-section" id="Step_2._Create_a_Branch">
+             <header>Step 2. Create a Branch</header>
+             <article>
+               <p>
+        Branching is the way to work on different versions of a repository at one time.
+
+                 By default your repository has one branch named <code>main</code> which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to <code>main</code>.
+               </p>
+               <p>
+                 When you create a branch off the <code>main</code> branch, you’re making a copy, or snapshot, of <code>main</code> as it was at that point in time. If someone else made changes to the <code>main</code> branch while you were working on your branch, you could pull in those updates.
+        </p>
+        This diagram shows:
+        <ul>
+
+          <li>The <code>main</code> branch</li>
+          <li>A new branch called <code>feature</code> (because we’re doing ‘feature work’ on this branch)</li>
+          <li>The journey that <code>feature</code> takes before it’s merged into <code>main</code></li>
+          <img class="limg" src="https://guides.github.com/activities/hello-world/branching.png" alt=""/></ul>
+          </p><p> Have you ever saved different versions of a file? Something like:</p>
+        <ul>
+          <li>
+            <code>story.txt</code></li>
+          <li><code>story-joe-edit.txt</code></li>
+          <li><code>story-joe-edit-reviewed.txt</code></li></ul>
+               <p>Branches accomplish similar goals in GitHub repositories.
+               </p>
+        <p>Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our <code>main</code> (production) branch. When a change is ready, they merge their branch into <code>main</code>.
+        </p>
+             </article>
+             <article> 
+               <p>To create a new branch</p>
+               <p><ul>
+               <li>Go to your new repository <code>hello-world</code>.
+               <li>Click the drop down at the top of the file list that says branch: main.
+               <li>Type a branch name, <code>readme-edits</code>, into the new branch text box.
+                 <li>Select the blue Create branch box or hit “Enter” on your keyboard.</ul>
+               <img class="limg" src="https://guides.github.com/activities/hello-world/readme-edits.gif" alt=""/>
+               </p><p> Now you have two branches, <code>main</code> and <code>readme-edits</code>. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.
+               </p>
+             </article>
+          </section>
+           <section class="main-section" id="Step_3._Make_and_commit_changes">
+             <header>Step 3. Make and commit changes</header>
+             <article>
+               <p>
+                 Bravo! Now, you’re on the code view for your <code>readme-edits</code> branch, which is a copy of <code>main</code>. Let’s make some edits.</p>
+        <p>
+        On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+               </p>
+               <p>Make and commit changes</p>
+               <ol>
+                 <li>Click the <code>README.md</code> file.
+        <li>Click the  pencil icon in the upper right corner of the file view to edit.
+        <li>In the editor, write a bit about yourself.
+        <li>Write a commit message that describes your changes.
+                 <li>Click Commit changes button.</ol>
+                   <img class="limg" src="https://guides.github.com/activities/hello-world/commit.png" alt=""/>
+               </p><p>These changes will be made to just the README file on your <code>readme-edits</code> branch, so now this branch contains content that’s different from <code>main</code>.
+               </p></article>
+          </section>
+           <section class="main-section" id="Step_4._Open_a_Pull_Request">
+             <header>Step 4. Open a Pull Request</header>
+        <article>
+          <p>
+            Nice edits! Now that you have changes in a branch off of <code>main</code>, you can open a pull request.
+          </p>
+          <p>
+        Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+          </p>
+          <p>
+        As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+          </p>
+          <p>
+        By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+          </p>
+        You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub flow before working on larger projects.
+        <p>
+          </p>
+        Open a Pull Request for changes to the README</p>
+             <ul>
+               <li>Click the  Pull Request tab, then from the Pull Request page, click the green New pull request button.</li>
+               <li>
+                 <img class="limg" src="https://guides.github.com/activities/hello-world/pr-tab.gif" alt=""/>
+               </li>
+               <li>
+                 In the Example Comparisons box, select the branch you made, <code>readme-edits</code>, to compare with <code>main</code> (the original).
+               </li>
+               <li><img class="limg" src="https://guides.github.com/activities/hello-world/pick-branch.png" alt=""/></li>
+               <li>Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.</li>
+               <li><img class="limg" src="https://guides.github.com/activities/hello-world/diff.png" alt=""/>
+               </li>
+               <li>When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.</li>
+               <li><img class="limg" src="https://guides.github.com/activities/hello-world/create-pr.png" alt="" /></li>
+               <li>Give your pull request a title and write a brief description of your changes.</li>
+               <li><img class="limg" src="https://guides.github.com/activities/hello-world/pr-form.png" alt=""></li>
+             </ul>
+             When you’re done with your message, click Create pull request!</article>
+          </section>
+           <section class="main-section" id="Step_5._Merge_your_Pull_Request">
+             <header>Step 5. Merge your Pull Request</header>
+             <article>
+        <p>In this final step, it’s time to bring your changes together – merging your <code>readme-edits</code> branch into the <code>main</code> branch.
+             </p>
+             <ol>
+        <li>Click the green Merge pull request button to merge the changes into main.
+        <li>Click Confirm merge.
+        <li>Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.</ol>
+          <img class="limg" src="https://guides.github.com/activities/hello-world/merge-button.png" alt=""/>
+               </p></article>
+          </section>
+        </main>
+    </body>
+</html>
