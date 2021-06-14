@@ -29,7 +29,7 @@ function getQuotes() {
       Accept: 'application/json'
     },
     url:
-      "https://raw.githubusercontent.com/mnk17arts/myHtmlCssJs/main/mnk17arts'%20Quote%20machine/mnk17arts'-Quote-machine.json",
+      "https://raw.githubusercontent.com/mnk17arts/myWebProjects/main/quote-machine/mnk17arts'-Quote-machine.json",
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
         quotesData = JSON.parse(jsonQuotes);
