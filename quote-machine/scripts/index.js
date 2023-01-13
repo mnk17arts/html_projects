@@ -116,4 +116,5 @@ $(document).ready(function () {
   });
 
   $('#new-quote').on('click', getQuote);
+  setInterval ( "$('#new-quote').click()", 6000 );
 });
